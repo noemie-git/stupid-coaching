@@ -1,3 +1,59 @@
 // Place all the styles related to the Questions controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+$pale-yellow: rgb(255, 255, 188);
+
+.answer {
+  background: $pale-yellow;
+  border-left: 5px solid grey;
+  padding: 10px 20px;
+  font-style: bold;
+}
+
+.coach-answer {
+  font-weight: bold;
+}
+
+.signature {
+  font-style: italic;
+}
+
+.btn {
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  background: rgb(0, 111, 202);
+  height: auto;
+  padding: 10px 30px;
+  border: 1px solid rgba(177, 203, 224, 0.555);
+  border-radius: 0% 4% 4% 0%;
+}
+
+.field {
+  font-size: 18px;
+  height: auto;
+  padding: 10px 30px;
+  border-radius: 4% 0% 0% 4%;
+  border: 1px solid rgba(177, 203, 224, 0.555);
+}
+
+.question {
+  padding: 10px 20px;
+  border-left: 5px solid grey;
+}
+.link-new-qst {
+  color: darkblue;
+  font-weight: light;
+  font-size: 16px;
+  text-decoration-line: none;
+}
+
+body {
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: thin;
+  font-size: 18px;
+}
+.form {
+  display: flex;
+  align-items: flex-start;
+}
