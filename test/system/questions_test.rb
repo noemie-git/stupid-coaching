@@ -5,6 +5,10 @@ class QuestionsTest < ApplicationSystemTestCase
     visit ask_url
     assert_selector "p", text: "Ask your coach anything"
   end
+
+  test "form field and button should be next to each others" do
+    take_screenshot
+  end
 end
 
 
